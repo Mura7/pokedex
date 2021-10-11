@@ -1,0 +1,13 @@
+.listContainer {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../../images/background.jpg');
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.listContent {
+}

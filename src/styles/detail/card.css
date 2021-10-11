@@ -1,0 +1,90 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardContainer {
+  background-color: #ffffff82;
+  margin-top: 50px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.cardInfoContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardImageContainer {
+  flex: 0.5;
+}
+
+.cardImage {
+  width: 175px;
+  height: 175px;
+}
+
+.cardSummary {
+  flex: 2;
+}
+
+.cardTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.cardTableContainer {
+  display: flex;
+  align-items: center;
+}
+
+/* Table */
+
+.cardTableItem {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardTableTitle {
+  font-size: 1rem;
+  font-weight: 500;
+  padding-right: 10px;
+}
+
+.cardTableText {
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+
+/* Stats */
+
+.cardStatsItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.cardStatsTitle {
+  flex: 0.5;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.cardStatsValueWrapper {
+  flex: 1;
+  background-color: #f1eadf;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.cardStatsValue {
+  padding: 5px;
+  background-color: #e32e1e;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
